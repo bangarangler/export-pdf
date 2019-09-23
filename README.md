@@ -24,3 +24,5 @@ Nowigence has many dashboard components with financial and textual data and we w
 [Download API Files With React & Fetch](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwj38YXmwOfkAhVJ-6wKHaVxCSMQFjAAegQIARAB&url=https%3A%2F%2Fmedium.com%2Fyellowcode%2Fdownload-api-files-with-react-fetch-393e4dae0d9e&usg=AOvVaw0IuCTqdy0CdazIs5Ho1SWo)
 
 [Create PDFs with React | Inside PSPDFKit](https://pspdfkit.com/blog/2019/create-pdfs-with-react/)
+
+[Generating Pdf documents in React Using React-pdf](https://dev.to/finallynero/generating-pdf-documents-in-react-using-react-pdf-4ka7)
