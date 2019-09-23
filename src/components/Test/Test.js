@@ -22,9 +22,6 @@ const ExportPDF = () => {
     <Document>
        <Page size="A4" style={styles.page}>
         <View style={styles.section}>
-          <Text>Hello World!</Text>
-        </View>
-        <View style={styles.section}>
           <Text>{data && Object.entries(data)}</Text>
         </View>
       </Page>
