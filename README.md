@@ -26,3 +26,26 @@ Nowigence has many dashboard components with financial and textual data and we w
 [Create PDFs with React | Inside PSPDFKit](https://pspdfkit.com/blog/2019/create-pdfs-with-react/)
 
 [Generating Pdf documents in React Using React-pdf](https://dev.to/finallynero/generating-pdf-documents-in-react-using-react-pdf-4ka7)
+
+    <Document> // PDF Doc itself. Must be the root
+    	<Page> // Single page inside PDF Doc or subset of them. Only render in <Document> Tags
+    		<View> // can be nested inside other <View> tags
+    			<Text> // Supports nesting of other Text or Link Components
+    				
+    			</Text>
+    		</View>
+    	</Page>
+    </Document>
+    // PRETTY SOLID DOCS LINKED BELOW!
+
+    <PDFViewer> //(web-only) 
+    </PDFViewer>
+    
+    <PDFDownloadLink> // (web-only) - generate & download on the fly
+    </PDFDownloadLink>
+    
+    <BlobProvider> // (web-only) - document blob data without showing on screen
+    </BlobProvider>
+    // PRETTY SOLID DOCS LINKED BELOW!
+
+[React-pdf](https://react-pdf.org/)
